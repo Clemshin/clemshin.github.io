@@ -8,3 +8,10 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
+
+//switzerland hotel: coordinates
+L.circle([46.8182, 8.2275]), {
+        fillcolor: "teal",
+        color: 'black',
+        radious: 1000
+  }).add(map);

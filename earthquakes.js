@@ -6,7 +6,7 @@ d3.json(url).then(
     console.log(data);
 
     let map = L.map("map", (
-      center: [17.09, -95.71],
+      center: [37.09, -95.71],
       zoom: 5
   });
 

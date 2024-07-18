@@ -2,7 +2,7 @@
 let map = L.map("map", {
   center: [46.8182, 8.2275],
   zoom: 15
-});
+);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
